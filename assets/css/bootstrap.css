@@ -674,6 +674,14 @@ blockquote.pull-right small:after,
 blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
+blockquote:before {
+  content: "";
+  position: absolute;;
+  border-top: 1px solid #062E51;
+  left: 35%;
+  width: 30%;
+  background-color: #00f;
+}
 blockquote:after {
   content: "";
   position: absolute;
@@ -681,7 +689,6 @@ blockquote:after {
   left: 0;
   width: 100%;
   background-color: #00f;
-
 }
 address {
   margin-bottom: 20px;

@@ -37,3 +37,5 @@ function onScroll(event){
         }
     });
 }
+
+alert("mobilurzec gaxseni an windows daapatarave ro mobiluris versiac ganaxos");
