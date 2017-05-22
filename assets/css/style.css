@@ -96,13 +96,19 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	background: url(../img/back.jpeg) no-repeat center top;
 	margin-top: -70px;
-  margin: auto;
+ 	margin: auto;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
-	width: 1100px;
+	width: 1100px;	
+	min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -114,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 #headerwrap h1 {
 	color:#ffffff;
