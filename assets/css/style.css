@@ -37,7 +37,7 @@
 }
 
 .mt {
-	margin-top: 20px;
+	margin-top: 100px;
 }
 
 .mb {
@@ -94,14 +94,15 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/back.jpeg) no-repeat center top;
 	margin-top: -70px;
+  margin: auto;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
-	width: 100%;
+	width: 1100px;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -119,8 +120,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 60px;
-	/*font-weight: bold;*/
+	font-size: 80px;
+	font-weight: 900;
 }
 
 #headerwrap h4 {
@@ -218,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery {
 	margin-top: 50px;
   border-left: 20px solid #4c4c4c;
-  height: 100px;
+  height: 200px;
   background: #008CBA;
   color: #ffffff;
 }
@@ -230,14 +231,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery p {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   padding: 30px;
   text-align: left;
   width: 85%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+#whoweare {
+  margin-top: 20px;
+}
+#cont {
+  margin-bottom: 50px;
 }
 .navbar {
     -webkit-transition: all 0.6s ease-out;

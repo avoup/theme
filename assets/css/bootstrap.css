@@ -624,10 +624,13 @@ abbr[data-original-title] {
 }
 blockquote {
   padding: 1.5rem 1rem;
-  border-top: 100px solid white;
-  text-align: center;
+  border-top: 50px solid white;
+  text-align: left;
   font-size: 17.5px;
   clear: both;
+}
+blockquote h1 {
+  text-align: center;
 }
 blockquote ul {
   padding-bottom: 60px;
@@ -678,8 +681,9 @@ blockquote:before {
   content: "";
   position: absolute;
   border-top: 1px solid #062E51;
-  width: 30%;
-  left: 35%;
+  margin-left: 50%;
+  left: -3rem;
+  width: 6rem;
   background-color: #00f;
 }
 blockquote:after {
@@ -694,6 +698,7 @@ blockquote:after {
   border-top: 1px solid #062E51;
   border-bottom: 1px solid #062E51;
   margin-bottom: 60px;
+  margin-top: 50px;
 }
 address {
   margin-bottom: 20px;
@@ -766,7 +771,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 900px;
   }
 }
 .container-fluid {
@@ -5798,15 +5803,16 @@ button.close {
 }
 /* custom */
 #nrwd {
-  width: 550px;
+  width: 700px;
   height: 150px;
   letter-spacing: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   margin: auto;
 }
 
 #nrwd h2 {
-  font-size: 40px;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
