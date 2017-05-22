@@ -16,6 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- fade in -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,7 +35,7 @@
     <!-- Static navbar -->
     <section id="top"></section>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
+      <div class="container w3-animate-top">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -45,8 +48,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a class="active" href="#top">Home</a></li>
-            <li><a href="#WhoWeAre">Who We Are</a></li>
             <li><a href="#WhatWeDo">What We Do</a></li>
+            <li><a href="#WhoWeAre">Who We Are</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -56,24 +59,22 @@
 	<div id="headerwrap">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
+				<div class="col-lg-6 col-lg-offset-3 w3-container w3-center w3-animate-zoom">
           <h1>Data Analysis Boosts Performance of Your Business</h1>
 				</div>
 			</div><! --/row -->
 	    </div> <!-- /container -->
 	</div><! --/headerwrap -->
 
-  <section id="WhoWeAre"></section>
 	<div class="container">
 		<div class="row centered mt mb">
 
-    <section id="WhatWeDo"></section>
+      <section id="WhatWeDo"></section>
+      <br/><br/>
 
-
-      <h2 id="nrwd">We predict your clients’ behaviour in various contexts</h2>
-      <div id="btl">
-      <h4>We use broad spectrum of machine learning techniques to perform cutting edge statistical analysis</h4>
-    </div>
+      <div id="nrwd"><h2>We predict your clients’ behaviour in various contexts</h2></div>
+      <div id="btl"><h4>We use broad spectrum of machine learning techniques to perform cutting edge statistical analysis</h4></div>
+      <!--
       <div class="col-lg-4 col-md-4 col-sm-4 gallery centered ">
         <a href="#"><img src="assets/img/text_background.png" class="img-responsive"></a>
         <p>Credit risk scoring: estimating client’s risk level using application or behavioral scorecards for effective underwriting</p>
@@ -106,10 +107,39 @@
         <a href="#"><img src="assets/img/text_background.png" class="img-responsive"></a>
         <p>Actuarial research: evaluation of insurance risk in both health and non health sectors and product specific pricing</p>
       </div>
+    -->
 
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Credit risk scoring: estimating client’s risk level using application or behavioral scorecards for effective underwriting</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Propensity scoring (offer/campaign optimization): targeting clients with highest probability to buy a product thereby reducing costs of campaigns</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Fraud alerts: designing intelligent algorithms for detecting fraudulent activities</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Customer churn: identify customers that are most likely to leave. If a client is profitable it is essential to take an effort to retain her otherwise it is not worth to spend on keeping her engaged</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>What if analysis: simulating scenarios of business development given new decision engine and/or new business rules (assuming modifications made in decision engine and business rules are already in effect, implemented)</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Segmentation: grouping customers based on the similarity of their characteristics helps us to identify most profitable market, or emerging market, to effectively plan crm activities, enables us to have segment based crm activities resulting in more effective campaigns</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Pricing: estimating APR, etc</p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 cust gallery">
+      <p>Actuarial research: evaluation of insurance risk in both health and non health sectors and product specific pricing</p>
+    </div>
 
       <blockquote id="whoweare">
+        <br/><br/>
+        <section id="WhoWeAre"></section>
+        <br/><br/>
         <h1>Who We Are</h1>
+
         <br/>
         <br/>
 
@@ -184,5 +214,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/navbar.js"></script>
   </body>
 </html>
