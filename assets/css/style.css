@@ -97,7 +97,8 @@ h1, h2, h3, h4, h5, h6 {
 	background: url(../img/back.jpeg) no-repeat center top;
 	margin-top: -70px;
  	margin: auto;
-	padding-top: 250px;
+	padding-top: 100px;
+    	padding-bottom: 100px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
