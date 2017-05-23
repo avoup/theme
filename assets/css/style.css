@@ -33,7 +33,6 @@
 
 .centered ul {
   text-align: left;
-  margin-left: 25%;
 }
 
 .mt {
@@ -96,32 +95,29 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	background: url(../img/back.jpeg) no-repeat center top;
 	margin-top: -70px;
- 	margin: auto;
-	padding-top: 100px;
-    	padding-bottom: 100px;
+  margin: auto;
+	padding-top: 150px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
-	width: 1100px;	
-	min-height: 500px; 
+	width: 80%;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 
 #headerwrap h1 {
 	color:#ffffff;
@@ -225,10 +221,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 50px;
-  border-left: 20px solid #4c4c4c;
+	margin-top: 30px;
+  margin-left: 5px;
+  border-left: 10px solid #213d5e;
   height: 200px;
-  background: #008CBA;
+  background: #30598a;
   color: #ffffff;
 }
 
@@ -239,17 +236,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery p {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
-  padding: 30px;
+  padding: 0px;
   text-align: left;
-  width: 85%;
+  width: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-#whoweare {
-  margin-top: 20px;
 }
 #cont {
   margin-bottom: 50px;
