@@ -28,7 +28,7 @@ function onScroll(event){
     $('.collapse a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos) {
+        if (refElement.position().top-5 <= scrollPos) {
             $('.collapse ul li a').removeClass("active");
             currLink.addClass("active");
         }
