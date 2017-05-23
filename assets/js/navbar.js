@@ -1,5 +1,5 @@
 function checkScroll(){
-    var startY = $('.navbar').height() * 10; //The point where the navbar changes in px
+    var startY = $('.navbar').height() * 12; //The point where the navbar changes in px
 
     if($(window).scrollTop() > startY){
         $('.navbar').addClass("scrolled");
