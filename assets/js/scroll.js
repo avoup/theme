@@ -37,3 +37,13 @@ function onScroll(event){
         }
     });
 }
+
+$('.hov').hover(function() {
+        $(this).find('.title').hide();
+        $(this).find('.readmore').show();
+        $(this).css({"background-color": "#3232FF", "color": "#fff"})
+    }, function() {
+        $(this).find('.readmore').hide();
+        $(this).find('.title').show();
+        $(this).css({"background-color": "#fff", "color": "#000"})
+});

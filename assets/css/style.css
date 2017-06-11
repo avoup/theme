@@ -221,25 +221,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gallery */
 .gallery {
-	margin-top: 30px;
-  margin-left: 5px;
-  border-left: 10px solid #213d5e;
   height: 200px;
-  background: #30598a;
-  color: #ffffff;
+  background: #fff;
+  color: #000;
 }
 
-.gallery:hover {
+/* .gallery:hover {
   box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-}
+} */
 
 .gallery p {
   font-size: 15px;
   font-weight: 400;
-  padding: 0px;
-  text-align: left;
+  padding: auto;
+  text-align: center;
   width: 100%;
   position: absolute;
   top: 50%;
@@ -259,4 +256,53 @@ h1, h2, h3, h4, h5, h6 {
 .navbar.scrolled {
     background: rgb(86, 86, 86); //IE
     background: rgba(0, 0, 0, 0.78); //NON-IE
+}
+
+
+.rido {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.ledo {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.riup {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+.leup {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+.do {
+  border-bottom: 1px solid black;
+}
+.le {
+  border-left: 1px solid black;
+}
+.ri{
+  border-right: 1px solid black;
+}
+.up {
+  border-top: 1px solid black;
+}
+.readmore {
+  display: none;
+}
+.logo {
+  margin-top: 18%;
+}
+.logo img {
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.logo p {
+  padding: auto;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-35%);
 }
