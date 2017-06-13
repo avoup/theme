@@ -305,3 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 75%;
   transform: translateY(-35%);
 }
+
+.empty:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
