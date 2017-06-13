@@ -1,7 +1,7 @@
 var num = 1;
 $('#headerwrap').css({
 
-  "background" : "url(https://raw.githubusercontent.com/avoup/theme/master/assets/img/clock1.jpg) no-repeat center top",
+  "background" : "url(assets/img/clock1.jpg) no-repeat center top",
   "background-attachment": "fixed",
   "background-position": "center",
   "background-repeat": "no-repeat",
@@ -14,7 +14,7 @@ $(window).scroll(function () {
  if( num > 2){
 
       $('#headerwrap').css({
-        "background":"url(https://raw.githubusercontent.com/avoup/theme/master/assets/img/clock2.jpg",
+        "background":"url(assets/img/clock2.jpg",
         "background-attachment": "fixed",
         "background-position": "center",
         "background-repeat": "no-repeat",
@@ -24,7 +24,7 @@ $(window).scroll(function () {
 
   if (num<1){
     $('#headerwrap').css({
-      "background" : "url(https://raw.githubusercontent.com/avoup/theme/master/assets/img/clock1.jpg) no-repeat center top",
+      "background" : "url(assets/img/clock1.jpg) no-repeat center top",
       "background-attachment": "fixed",
       "background-position": "center",
       "background-repeat": "no-repeat",
@@ -33,7 +33,7 @@ $(window).scroll(function () {
   }
     if (num>4){
       $('#headerwrap').css({
-        "background" : "url(https://raw.githubusercontent.com/avoup/theme/master/assets/img/clock3.jpg) no-repeat center top",
+        "background" : "url(assets/img/clock3.jpg) no-repeat center top",
         "background-attachment": "fixed",
         "background-position": "center",
         "background-repeat": "no-repeat",
@@ -42,7 +42,7 @@ $(window).scroll(function () {
   }
   if (num>6){
     $('#headerwrap').css({
-      "background" : "url(https://raw.githubusercontent.com/avoup/theme/master/assets/img/clock4.jpg) no-repeat center top",
+      "background" : "url(assets/img/clock4.jpg) no-repeat center top",
       "background-attachment": "fixed",
       "background-position": "center",
       "background-repeat": "no-repeat",

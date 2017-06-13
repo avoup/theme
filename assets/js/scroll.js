@@ -41,7 +41,7 @@ function onScroll(event){
 $('.hov').hover(function() {
         $(this).find('.title').hide();
         $(this).find('.readmore').show();
-        $(this).css({"background-color": "#3232FF", "color": "#fff"})
+        $(this).css({"background-color": "#0099ff", "color": "#fff"})
     }, function() {
         $(this).find('.readmore').hide();
         $(this).find('.title').show();
@@ -53,7 +53,7 @@ $('.hov').hover(function() {
 //------------ navbar --------------
 
 function checkScroll(){
-    var startY = $('.navbar').height() * 12; 
+    var startY = $('.navbar').height() * 12;
 
     if($(window).scrollTop() > startY){
         $('.navbar').addClass("scrolled");
