@@ -47,3 +47,23 @@ $('.hov').hover(function() {
         $(this).find('.title').show();
         $(this).css({"background-color": "#fff", "color": "#000"})
 });
+
+
+
+//------------ navbar --------------
+
+function checkScroll(){
+    var startY = $('.navbar').height() * 12; 
+
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
+    }else{
+        $('.navbar').removeClass("scrolled");
+    }
+}
+
+if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}
